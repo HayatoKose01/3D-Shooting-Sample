@@ -68,7 +68,7 @@ public class Enemy : MonoBehaviour {
 		// 弾
 		if (bulletTime_ <= 0.0f) {
 			Vector3 s = player_.transform.position - this.transform.position;
-			if ( s.magnitude < 50.0f && Vector3.Dot (Direction, s.normalized) > 0.85f) {
+			if ( s.magnitude < 50.0f && Vector3.Dot (Direction, s.normalized) > 0.95f) {
 
 				GameObject bullet = (GameObject)Instantiate (bullet_, this.transform.position, Quaternion.identity);
 				Bullet b = bullet.GetComponent<Bullet> ();

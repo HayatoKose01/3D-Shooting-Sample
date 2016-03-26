@@ -6,6 +6,8 @@ public class Bullet : MonoBehaviour {
 	public float speed_;
 	public Vector3 direction_;
 
+	public GameObject boom_;
+
 	float lifeTime_ = 5;
 
 	// Update is called once per frame
@@ -20,5 +22,7 @@ public class Bullet : MonoBehaviour {
 
 	void OnCollisionEnter( Collision collision ) {
 		lifeTime_ = 0.0f;
+
+		GameObject.Instantiate (boom_, this.transform.position, Quaternion.identity);
 	}
 }
