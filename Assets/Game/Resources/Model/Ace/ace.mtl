@@ -1,0 +1,14 @@
+# Blender MTL File: 'Ace_[5]Maps_06.blend'
+# Material Count: 1
+
+newmtl Material.002
+Ns 434.166662
+Ka 0.000000 0.000000 0.000000
+Kd 0.819820 0.819820 0.819820
+Ks 0.143132 0.143132 0.143132
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump /Users/hayatokose/Downloads/documents-export-2016-03-27/U3DD_Ace/Ace_normals.png
+map_Kd /Users/hayatokose/Downloads/documents-export-2016-03-27/U3DD_Ace/Ace_texture.png
+map_Ke /Users/hayatokose/Downloads/documents-export-2016-03-27/U3DD_Ace/Ace_emissive.png

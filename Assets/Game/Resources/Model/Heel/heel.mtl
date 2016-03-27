@@ -1,0 +1,14 @@
+# Blender MTL File: 'Heel_[5]Maps_03.blend'
+# Material Count: 1
+
+newmtl Material
+Ns 435.000010
+Ka 0.000000 0.000000 0.000000
+Kd 0.656000 0.656000 0.656000
+Ks 0.143000 0.143000 0.143000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Bump /Users/hayatokose/Downloads/documents-export-2016-03-27/U3DD_Heel/Heel_normals.png
+map_Kd /Users/hayatokose/Downloads/documents-export-2016-03-27/U3DD_Heel/Heel_texture.png
+map_Ke /Users/hayatokose/Downloads/documents-export-2016-03-27/U3DD_Heel/Heel_emissive.png

@@ -17,8 +17,8 @@ public class Player : MonoBehaviour {
 	public float speedMax_;
 	public float accel_;
 
-	public int sieldMax_;
-	public int Sield { get; private set; }
+	public int shieldMax_;
+	public int Shield { get; private set; }
 
 	public Vector3 rotSpeed_; // roll, pitch, yaw
 
@@ -44,7 +44,7 @@ public class Player : MonoBehaviour {
 
 		Speed = speedMin_;
 
-		Sield = sieldMax_;
+		Shield = shieldMax_;
 	}
 	
 	// Update is called once per frame
@@ -109,8 +109,8 @@ public class Player : MonoBehaviour {
 
 	void OnCollisionEnter( Collision collision ) {
 
-		Sield -= 10;
-		if (Sield <= 0) {
+		Shield -= 10;
+		if (Shield <= 0) {
 
 			this.gameObject.SetActive (false);
 

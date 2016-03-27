@@ -41,7 +41,7 @@ public class UIController : MonoBehaviour {
 		speed_.text = string.Format ("{0:F2} km/h", player_.Speed * 100);
 		score_.text = string.Format ("Score: {0}", manager_.Score);
 
-		hpMeter_.fillAmount = (float)player_.Sield / (float)player_.sieldMax_;
+		hpMeter_.fillAmount = (float)player_.Shield / (float)player_.shieldMax_;
 	}
 
 	public void AddEnemy( Enemy enemy) {
